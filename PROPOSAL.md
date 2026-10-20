@@ -11,7 +11,7 @@ Earthquakes occur around the world, but their magnitudes, depths, and impacts va
 ## The data
 
 | Dataset | Link | What is in it |
-|USGS Earthquake Catalog|https://earthquake.usgs.gov/earthquakes/search/|Earthquake locations, magnitudes, depths, and dates|
+|USGS Earthquake Catalog|https://earthquake.usgs.gov/earthquakes/search/ |Earthquake locations, magnitudes, depths, and dates|
 |NOAA Significant Earthquake Database|https://www.ncei.noaa.gov/products/natural-hazards/tsunamis-earthquakes-volcanoes/earthquakes |	Significant earthquakes, fatalities, and damage information |
 
 
