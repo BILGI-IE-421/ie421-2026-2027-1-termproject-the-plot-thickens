@@ -1,14 +1,12 @@
-# Your project title
+#When the Earth Shakes: Understanding Earthquake Patterns
 
-**Team:** your-team-name · **Theme:** T? Theme name
+**Team:** the-plot-thickens · **Theme:** T1 Restless Earth
 
-**Members:** Name Surname (Student ID) · Name Surname (Student ID) · Name Surname (Student ID)
-
-<!-- Keep this page to one screen: you present your 3-minute pitch from it in class. Replace the italic lines, then delete this comment. -->
+**Members:** Esmanur Çimen (122203017) · Yunus Emre Ayhan (119203047) · Efe Anıl Serin (122203100)
 
 ## The problem
 
-_Three or four sentences: what do you want to find out, and why is it worth knowing?_
+Earthquakes occur around the world, but their magnitudes, depths, and impacts vary across regions. We want to investigate where earthquakes happen most frequently and how their characteristics are related. Understanding these patterns can help us better explain earthquake activity and its effects through data visualizations.
 
 ## The data
 
