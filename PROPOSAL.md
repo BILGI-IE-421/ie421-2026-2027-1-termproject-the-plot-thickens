@@ -11,14 +11,12 @@ Earthquakes occur around the world, but their magnitudes, depths, and impacts va
 ## The data
 
 | Dataset | Link | What is in it |
-|USGS Earthquake Catalog|https://earthquake.usgs.gov/earthquakes/search/ |Earthquake locations, magnitudes, depths, and dates|
-|NOAA Significant Earthquake Database|https://www.ncei.noaa.gov/products/natural-hazards/tsunamis-earthquakes-volcanoes/earthquakes |	Significant earthquakes, fatalities, and damage information |
-
+|---|---|---|
+| USGS Earthquake Catalog | https://earthquake.usgs.gov/earthquakes/search/ | Earthquake locations, magnitudes, depths, and dates |
+| NOAA Significant Earthquake Database | https://www.ncei.noaa.gov/products/natural-hazards/tsunamis-earthquakes-volcanoes/earthquakes | Significant earthquakes, fatalities, and damage information |
 
 ## Our questions
 
-1. 	Where do earthquakes occur most frequently around the world?
-2.	What is the relationship between earthquake magnitude and depth?
-3.	How are earthquake magnitudes related to reported fatalities and damage?
-
-
+1. Where do earthquakes occur most frequently, and are these the same places where they cause the most deaths?
+2. What is the relationship between earthquake magnitude and depth?
+3. For earthquakes of similar magnitude, how do death tolls differ by location and depth?
