@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>When the Earth Shakes</title>
+  <style>
+    body { font-family: Georgia, serif; max-width: 820px; margin: 40px auto; padding: 0 16px; color: #333; line-height: 1.6; }
+    h1 { font-size: 2em; margin-bottom: 0.2em; }
+    h2 { margin-top: 2em; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
+    .meta { color: #777; font-size: 0.95em; }
+    img { width: 100%; margin: 12px 0; }
+    .takeaway { font-style: italic; color: #555; }
+    .note { background: #f6f3ee; padding: 10px 14px; border-left: 4px solid #eb6834; }
+  </style>
+</head>
+<body>
+  <h1>When the Earth Shakes: Understanding Earthquake Patterns</h1>
+  <p class="meta">IE 421 Term Project · Team the-plot-thickens · Esmanur Çimen, Yunus Emre Ayhan, Efe Anıl Serin</p>
+
+  <p class="note">Work in progress (data and EDA checkpoint). The full story will be published here in December.</p>
+
+  <h2>Our questions</h2>
+  <ol>
+    <li>Where do earthquakes occur most frequently, and are these the same places where they cause the most deaths?</li>
+    <li>What is the relationship between earthquake magnitude and depth?</li>
+    <li>For earthquakes of similar magnitude, how do death tolls differ by location and depth?</li>
+  </ol>
+
+  <h2>A stronger earthquake is not always a deadlier one</h2>
+  <img src="visuals/fig1_deaths_vs_magnitude.png" alt="Scatter plot of deaths against magnitude for 638 earthquakes">
+  <p class="takeaway">Takeaway: deaths rise only weakly with magnitude (Spearman's ρ = 0.20). Earthquakes of magnitude 6 have killed thousands, while some of magnitude 8.5 killed only a few.</p>
+  <p>We matched 1,322 significant earthquakes from NOAA with the USGS catalog; 638 of them killed at least one person. NOAA never records a death toll of zero, so this chart only shows earthquakes with at least one recorded death. The cloud of points barely rises with magnitude, which is why we do not treat deaths as a function of magnitude alone.</p>
+
+  <h2>Among similar earthquakes, shallow ones kill the most</h2>
+  <img src="visuals/fig2_deaths_by_depth.png" alt="Bar chart of median deaths by depth for magnitude 6.5 to 6.9">
+  <p class="takeaway">Takeaway: for earthquakes of magnitude 6.5 to 6.9, the median shallow earthquake killed 22 people, about six times as many as a deep one (3.5).</p>
+  <p>Keeping magnitude almost fixed lets us see what else matters. Depth is one factor; the country is another: in the same magnitude range, the median death toll was 653 in Türkiye but 17.5 in Japan. These country figures rest on only 3 to 16 earthquakes each, so we will read them with care.</p>
+  <p>When USGS cannot measure the depth of an earthquake, it often sets it to 10 or 33 km. To check that this does not create our result, we removed those earthquakes: the median shallow earthquake still killed 16 people, against 4 and 3.5 for the deeper groups.</p>
+
+  <p class="meta">Source: USGS Earthquake Catalog and NOAA NCEI Significant Earthquake Database, 1970-2025.</p>
+</body>
+</html>
